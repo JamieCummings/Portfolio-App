@@ -10,6 +10,9 @@
 		07019F02215D2E8600FB052D /* RheaAnn (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 07019F01215D2E8600FB052D /* RheaAnn (2).png */; };
 		07019F04215D4B5C00FB052D /* headshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07019F03215D4B5B00FB052D /* headshot.jpg */; };
 		07019F06215D4C4500FB052D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07019F05215D4C4500FB052D /* InfoViewController.swift */; };
+		07019F08215DAD2600FB052D /* linkLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07019F07215DAD2600FB052D /* linkLogo.png */; };
+		07019F0A215DAD3F00FB052D /* githubLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07019F09215DAD3F00FB052D /* githubLogo.png */; };
+		07019F10215DB13300FB052D /* gmail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07019F0F215DB13300FB052D /* gmail.jpg */; };
 		07AE971C215D131100979799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE971B215D131100979799 /* AppDelegate.swift */; };
 		07AE971E215D131100979799 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AE971D215D131100979799 /* MainScreenViewController.swift */; };
 		07AE9721215D131100979799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AE971F215D131100979799 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		07019F01215D2E8600FB052D /* RheaAnn (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RheaAnn (2).png"; path = "Assets.xcassets/RheaAnn (2).png"; sourceTree = "<group>"; };
 		07019F03215D4B5B00FB052D /* headshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headshot.jpg; sourceTree = "<group>"; };
 		07019F05215D4C4500FB052D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		07019F07215DAD2600FB052D /* linkLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkLogo.png; sourceTree = "<group>"; };
+		07019F09215DAD3F00FB052D /* githubLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = githubLogo.png; sourceTree = "<group>"; };
+		07019F0F215DB13300FB052D /* gmail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gmail.jpg; sourceTree = "<group>"; };
 		07AE9718215D131100979799 /* Portfolio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portfolio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AE971B215D131100979799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07AE971D215D131100979799 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +70,9 @@
 				07AE971D215D131100979799 /* MainScreenViewController.swift */,
 				07AE971F215D131100979799 /* Main.storyboard */,
 				07AE9722215D131200979799 /* Assets.xcassets */,
+				07019F07215DAD2600FB052D /* linkLogo.png */,
+				07019F0F215DB13300FB052D /* gmail.jpg */,
+				07019F09215DAD3F00FB052D /* githubLogo.png */,
 				07019F01215D2E8600FB052D /* RheaAnn (2).png */,
 				07019F03215D4B5B00FB052D /* headshot.jpg */,
 				07AE9724215D131200979799 /* LaunchScreen.storyboard */,
@@ -131,10 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07019F08215DAD2600FB052D /* linkLogo.png in Resources */,
 				07AE9726215D131200979799 /* LaunchScreen.storyboard in Resources */,
+				07019F10215DB13300FB052D /* gmail.jpg in Resources */,
 				07AE9723215D131200979799 /* Assets.xcassets in Resources */,
 				07019F04215D4B5C00FB052D /* headshot.jpg in Resources */,
 				07019F02215D2E8600FB052D /* RheaAnn (2).png in Resources */,
+				07019F0A215DAD3F00FB052D /* githubLogo.png in Resources */,
 				07AE9721215D131100979799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

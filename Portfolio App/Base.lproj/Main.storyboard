@@ -91,12 +91,37 @@
                                     <constraint firstItem="30x-pg-Qpg" firstAttribute="top" secondItem="HR9-3D-TZO" secondAttribute="top" constant="10" id="fIH-QA-1h9"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2S-Q4-jx5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="bioLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2S-Q4-jx5">
                                 <rect key="frame" x="20" y="440" width="374" height="142"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTB-mQ-d3u">
+                                <rect key="frame" x="208" y="731" width="170" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="linkButton" image="linkLogo.png"/>
+                                <connections>
+                                    <action selector="emailLink:" destination="scS-CK-d5k" eventType="touchUpInside" id="tiG-4F-1gw"/>
+                                    <action selector="linkLink:" destination="scS-CK-d5k" eventType="touchUpInside" id="xhA-zw-aQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yog-7o-F4z">
+                                <rect key="frame" x="143" y="691" width="176" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="gitButton" image="githubLogo.png"/>
+                                <connections>
+                                    <action selector="gitLink:" destination="scS-CK-d5k" eventType="touchUpInside" id="bU0-F8-n9v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u8-aS-iQP">
+                                <rect key="frame" x="40" y="721" width="188" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="emailButton" image="gmail.jpg"/>
+                                <connections>
+                                    <action selector="emailLink:" destination="scS-CK-d5k" eventType="touchUpInside" id="Z86-Bz-LGf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -110,7 +135,10 @@
                     </view>
                     <connections>
                         <outlet property="bioLabel" destination="s2S-Q4-jx5" id="bSK-3w-oB5"/>
+                        <outlet property="emailButton" destination="3u8-aS-iQP" id="gPR-XQ-rqo"/>
+                        <outlet property="gitButton" destination="Yog-7o-F4z" id="ZGa-kC-uxw"/>
                         <outlet property="imageView" destination="30x-pg-Qpg" id="pwh-5s-EXW"/>
+                        <outlet property="linkButton" destination="CTB-mQ-d3u" id="Qje-fL-DTp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBf-U9-SUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,6 +166,9 @@
     </scenes>
     <resources>
         <image name="RheaAnn (2).png" width="500" height="500"/>
+        <image name="githubLogo.png" width="310" height="163"/>
+        <image name="gmail.jpg" width="240" height="240"/>
         <image name="headshot.jpg" width="320" height="240"/>
+        <image name="linkLogo.png" width="364" height="139"/>
     </resources>
 </document>
